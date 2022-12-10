@@ -1,0 +1,24 @@
+*, *::before, *::after {
+    box-sizing: border-box;   
+}
+body {
+    background-color: hsl(210,60%,87%);
+    background-image: url(Img/WipeCol2.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 10px;
+}
+div {
+    display: inline-block;
+}
+h1 {
+    display: block;
+    text-shadow: 2px 3px 2px #000;
+    color: rgb(252, 248, 248);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.8rem;
+    letter-spacing: .03rem;
+    word-spacing: .02rem;
+}

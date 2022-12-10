@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WipeCol/Registro productos</title>
+    <link rel="stylesheet" href="registrarproducto.css">
+</head>
+<body>
+    <h1>Registrar productos</h1>
+    <form class="product" >
+        <label >Id producto
+            <input class="item" name="id producto" type="number" required>
+        </label>
+        <label>Nombre del producto
+            <input class="item" name="nombre producto" type="username" required>
+        </label>
+        <label>Descripcion producto
+            <label for="message"></label>
+            <textarea
+            class="item"
+                id="message"
+                name="message" cols="50" rows="4">
+            </textarea>
+        </label>
+        <label>Valor unitario
+            <input class="item" name="valor unitario" type="number" required>
+        </label>
+        <label >Cantidad
+            <input class="item" name="cantidad" type="number" required>
+        </label>
+        <button>Crear</button>
+    </form>
+</body>
+</html>

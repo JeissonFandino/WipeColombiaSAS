@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WipeCol/facturar</title>
+    <link rel="stylesheet" href="facturar.css">
+</head>
+<body >
+    <h1>Facturar</h1>
+        <form>
+            <label >Id Factura
+                <input class="camps" name="id factura" type="number">
+            </label>
+            <label>Fecha
+                <input class="camps" type="date">
+            </label>
+            <label >Vendedor
+                <input class="camps" name="vendedor" type="username">
+            </label>
+            <label>Documento
+                <input class="camps" name="documento" type="number">
+            </label>
+            <label >Cliente
+                <input class="camps" name="username" type="username">
+            </label>
+            <label>Telefono
+                <input class="camps" name="telefono" type="number">
+            </label>
+            <label >Id producto
+                <input class="camps" name="id producto" type="number">
+            </label>
+            <label>Nombre producto
+                <input class="camps" name="nombre producto" type="username">
+            </label>
+            <label for="message" >Descripcion producto
+                <textarea
+                    class="camps"
+                    id="message"
+                    name="message" cols="50" rows="4">
+                </textarea>
+            </label>
+            <label>Valor unitario
+                <input class="camps" name="valor unitario" type="number">
+            </label>
+            <label>Cantidad
+                <input class="camps" name="cantidad" type="number">
+            </label>
+            <label>Valor Total
+                <input class="camps" name="valor total" type="number">
+            </label>
+            <label>Metodo de Pago
+                <select class="camps" name="method">
+                    <optgroup label="metodo de pago">
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="nequi">Nequi</option>
+                        <option value="daviplata">DaviPlata</option>
+                    </optgroup>
+                </select>
+            </label>
+            <button>Guardar</button>
+        <button>Registrar otro producto</button>
+        <button>Facturar</button>
+        </form>
+        
+</body>
+</html>
